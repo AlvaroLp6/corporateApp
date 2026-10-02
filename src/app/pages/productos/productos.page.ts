@@ -13,18 +13,25 @@ export class ProductosPage implements OnInit {
   products: any = [
     {
       id: 1,
-      nombre: "Portátil Dell (Prueba)",
+      nombre: "Portátil Dell",
       unidades: 12,
       precio: 1200,
       foto: "assets/images/dell.jpg"
     },
     {
       id: 2,
-      nombre: "Monitor LG (Prueba)",
+      nombre: "Monitor LG",
       unidades: 8,
       precio: 299,
       foto: "assets/images/lg.jpg"
-    }
+    },
+    {
+      id: 3,
+      nombre: "iPhone 18 Pro Max",
+      unidades: 25,
+      precio: 1649,
+      foto: "assets/images/iphone18promax.jpg"
+    },
   ];
 
   constructor(private productService: ProductsService) {}
